@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TMWP9WA Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">TMWP9WA</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#browse">Browse Plans</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#order">Order Now</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <h1>TMWP9WA</h1>
+        <p>A-H-C-G-D-Y-D!</p>
+        <a href="#browse" class="btn btn-primary btn-custom">Browse Plans</a>
+        <a href="#order" class="btn btn-success btn-custom">Order Now</a>
+        <a href="#contact" class="btn btn-info btn-custom">Contact Us</a>
+    </div>
+
+    <div class="container mt-5" id="browse">
+        <h2 class="text-center">Grocery Plans</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-header text-center">
+                        <h4>Basic (Solo)</h4>
+                    </div>
+                    <div class="card-body">
+                        <p>Price: $50</p>
+                        <p>Meals: 3 / Day</p>
+                        <p>Included Items:</p>
+                        <ul>
+                            <li>Fruits and Vegetables</li>
+                            <li>Grains</li>
+                            <li>Dairy</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-header text-center">
+                        <h4>Balanced (2 People)</h4>
+                    </div>
+                    <div class="card-body">
+                        <p>Price: $90</p>
+                        <p>Meals: 3 / Day</p>
+                        <p>Included Items:</p>
+                        <ul>
+                            <li>Fruits and Vegetables</li>
+                            <li>Grains</li>
+                            <li>Meats</li>
+                            <li>Dairy</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-header text-center">
+                        <h4>Family Plan (4)</h4>
+                    </div>
+                    <div class="card-body">
+                        <p>Price: $150</p>
+                        <p>Meals: 3 / Day</p>
+                        <p>Included Items:</p>
+                        <ul>
+                            <li>Fruits and Vegetables</li>
+                            <li>Grains</li>
+                            <li>Meats</li>
+                            <li>Dairy</li>
+                            <li>Snacks</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="dietary-preference">Select Dietary Preference:</label>
+            <select class="form-control" id="dietary-preference">
+                <option value="vegan">Vegan</option>
+                <option value="non-vegan">Non-Vegan</option>
+                <option value="vegetarian">Vegetarian</option>
+                <option value="gluten-free">Gluten-Free</option>
+            </select>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
